@@ -90,7 +90,7 @@ namespace Lab601
   {
     public override void Eat(Herbivore h)
     {
-      // Eat Wildebeest
+      // Eats Wildebeest
       Console.WriteLine(this.GetType().Name +
         " eats " + h.GetType().Name);
     }
@@ -104,7 +104,7 @@ namespace Lab601
   {
     public override void Eat(Herbivore h)
     {
-      // Eat Bison
+      // Eats Bison
       Console.WriteLine(this.GetType().Name +
         " eats " + h.GetType().Name);
     }
