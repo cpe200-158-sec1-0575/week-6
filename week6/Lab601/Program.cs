@@ -45,7 +45,7 @@ namespace Lab601
     {
         public override void Eat(Herbivore h)
         {
-            // Eat Rabbit
+            // Eats Rabbit
             Console.WriteLine(this.GetType().Name +
               " eats " + h.GetType().Name);
         }
